@@ -35,6 +35,7 @@
 
 --remap flash:openfl
 --remap nme:openfl
+--macro addMetadata('@:build(com.stencyl.graphics.BitmapDataTileSourcePatch.patch())', 'openfl.display.BitmapData')
 
 -cp ../src
 
