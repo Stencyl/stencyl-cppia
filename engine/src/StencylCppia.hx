@@ -5,12 +5,6 @@ import ManifestResources;
 
 import cpp.cppia.Module;
 
-import hxcpp.StaticSqlite;
-import hxcpp.StaticMysql;
-import hxcpp.StaticRegexp;
-import hxcpp.StaticStd;
-import hxcpp.StaticZlib;
-
 @:build(cpp.cppia.HostClasses.include())
 class StencylCppia
 {
