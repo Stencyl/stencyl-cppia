@@ -40,9 +40,6 @@ class RunMain
 		var platform = System.hostPlatform;
 		var is64 = System.hostArchitecture == HostArchitecture.X64;
 
-		if(platform == HostPlatform.WINDOWS)
-			is64 = false;
-
 		var basePlatformID = platform + (is64  ? "64" : "");
 		var platformID = basePlatformID + (debug ? "-debug" : "");
 

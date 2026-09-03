@@ -107,9 +107,6 @@ class CppiaPlatform extends PlatformTarget {
 		var platform = System.hostPlatform;
 		var is64 = System.hostArchitecture == HostArchitecture.X64;
 		
-		if(platform == HostPlatform.WINDOWS)
-			is64 = false;
-		
 		var platformID = platform + (is64  ? "64" : "");
 		platformID = platformID.substr(0, 1).toUpperCase() + platformID.substr(1);
 		
